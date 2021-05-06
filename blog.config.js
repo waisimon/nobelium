@@ -1,8 +1,8 @@
 const BLOG = {
-  title: 'CRAIGARY',
-  author: 'Craig Hart',
-  email: 'i@craigary.net',
-  link: 'https://nobelium.vercel.app',
+  title: 'Shares',
+  author: 'SimonChan',
+  email: 'waisimon@outlook.com',
+  link: 'https://blog.ideas.cf',
   description: 'This gonna be an awesome website.',
   lang: 'en-US',
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -15,7 +15,6 @@ const BLOG = {
   sortByDate: false,
   showAbout: true, // WIP
   showArchive: true, // WIP
-  autoCollapsedNavBar: false, // the automatically collapsed navigation bar
   socialLink: 'https://twitter.com/craigaryhart',
   seo: {
     keywords: ['Blog', 'Website', 'Notion'],
@@ -36,22 +35,22 @@ const BLOG = {
   },
   comment: {
     // support provider: gitalk, utterances, cusdis
-    provider: '', // leave it empty if you don't need any comment plugin
+    provider: 'cusdis', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
-      repo: '', // The repository of store comments
-      owner: '',
-      admin: [],
-      clientID: '',
-      clientSecret: '',
-      distractionFreeMode: false
+      repo: 'nobelium-react-notion', // The repository of store comments
+      owner: 'waisimon',
+      admin: ['waisimon'],
+      clientID: 'fa49f2cdafda1f820c8a',
+      clientSecret: 'b875f630e576ac89f5d361c2a408f35ba4af4dca',
+      distractionFreeMode: true
     },
     utterancesConfig: {
-      repo: ''
+      repo: 'waisimon/nobelium-react-notion'
     },
     cusdisConfig: {
-      appId: '', // data-app-id
-      host: 'https://cusdis.com', // data-host, change this if you're using self-hosted version
-      scriptSrc: 'https://cusdis.com/js/cusdis.es.js' // change this if you're using self-hosted version
+      appId: '4cd98cee-3590-43d8-9dbb-1ea4aa5e9b57', // data-app-id
+      host: 'https://cusdis.ideas.cf', // data-host, change this if you're using self-hosted version
+      scriptSrc: 'https://cusdis.ideas.cf/js/cusdis.es.js' // change this if you're using self-hosted version
     }
   }
 }
