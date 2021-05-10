@@ -52,7 +52,8 @@ const BLOG = {
       host: 'https://cusdis.ideas.cf', // data-host, change this if you're using self-hosted version
       scriptSrc: 'https://cusdis.ideas.cf/js/cusdis.es.js' // change this if you're using self-hosted version
     }
-  }
+  },
+  isProd: process.env.VERCEL_ENV === 'production' // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
 }
 // export default BLOG
 module.exports = BLOG
